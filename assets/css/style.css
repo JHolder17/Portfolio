@@ -1,0 +1,159 @@
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+/* nav bar */
+#nav:hover{
+    color: white;
+}
+
+/* landing page */
+#land{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+small{
+    color: white !important;
+    text-align: center;
+}
+
+.hr5{
+    max-width: 100px;
+    border-width: 3px;
+    border-color: white;
+}
+
+
+
+/* about me section */
+.profile {
+    padding-top: 40px !important; 
+    background-color: lightgrey;
+    height: 100vh;  
+    color: #4aaaa5;
+}
+
+#abo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.hr4{
+    max-width: 150px;
+    border-width: 3px;
+    border-color: white;
+}
+
+#me {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+/* portfolio section */
+#portfolio{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-bottom: 30px !important;
+}
+
+#port{
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px !important;
+}
+
+.port{
+    height: 100vh;  
+}
+.hr3{
+    max-width: 125px;
+    border-width: 3px;
+    border-color: gray;
+}
+
+.panel-body{
+    padding-left: 0% !important;
+}
+
+#project{
+    text-align: center;
+    padding-left: 200px;
+}
+
+/* hover feature on portfolio pics */
+
+
+/* contact form  */
+#cont{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin:0px; 
+    padding:0px;
+}
+
+#contactHead{
+    font-size: 40px;
+}
+
+.hr2{
+    max-width: 280px;
+    border-width: 3px;
+    color:white;
+}
+
+.formbox{
+    background-color: #4aaaa5;
+    padding-top: 50px; 
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.form-control{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* social media section */
+.connect{
+    text-align: center;
+    color: #4aaaa5;    
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.hr1{
+    max-width: 250px;
+    border-width: 3px;
+    border-color: gray;
+}
+
+/* footer */
+.footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 35px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    padding-top: 5px;    
+}
