@@ -9,6 +9,15 @@
 #nav:hover{
     color: white;
 }
+/* parallax effect */
+
+#parallax{
+    background: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593327_1280.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 /* landing page */
 #land{
@@ -31,8 +40,6 @@ small{
     border-width: 3px;
     border-color: white;
 }
-
-
 
 /* about me section */
 .profile {
@@ -66,7 +73,6 @@ small{
     padding-left:15px;
     margin-right:auto;
     margin-left:auto;
-    padding-bottom: 30px !important;
 }
 
 #port{
