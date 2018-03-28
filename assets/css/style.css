@@ -14,7 +14,6 @@
 #parallax{
     background: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593327_1280.jpg');
     height: 100vh;
-    width: 100%;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -91,17 +90,55 @@ small{
     border-color: gray;
 }
 
-.panel-body{
-    padding-left: 0% !important;
-}
-
-#project{
-    text-align: center;
-    padding-left: 200px;
-}
-
 /* hover feature on portfolio pics */
+  .image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-bottom: 15px;
+  }
 
+  .links {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .project:hover .image {
+    opacity: 0.2;
+  }
+  
+  .project:hover .links {
+    opacity: 1;
+  }
+
+  .text{
+      color: #4aaaa5;
+      font-size: 25px;
+  }
+
+  .hr6{
+    max-width: 175px;
+    border-width: 3px;
+    border-color: #4aaaa5;
+  }
+
+ .button{
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 12px;
+  }
 
 /* contact form  */
 #cont{
