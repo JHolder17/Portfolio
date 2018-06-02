@@ -35,7 +35,7 @@ small{
 }
 
 .hr5{
-    max-width: 100px;
+    max-width: 125px;
     border-width: 3px;
     border-color: white;
 }
@@ -67,9 +67,9 @@ small{
 }
 
 #pic{
-    width: 200px;
-    height: 270px;
-    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    border-radius: 75%;
 }
 
 /* portfolio section */
@@ -101,7 +101,7 @@ small{
     opacity: 1;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 400px;
     transition: .5s ease;
     backface-visibility: hidden;
     padding-bottom: 15px;
