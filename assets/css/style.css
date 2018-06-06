@@ -137,8 +137,8 @@ small{
     border-color: gray;
   }
 
- .button{
-    display: inline-block;
+ .btn{
+    display: block;
     background-color: #4aaaa5;
     color: white;
     font-size: 16px;
@@ -175,6 +175,14 @@ small{
 .form-control{
     width: 300px;
     margin: 0 auto;
+}
+
+.btn1{
+    background-color: white;
+    color: #4aaaa5;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 12px;
 }
 
 /* social media section */
